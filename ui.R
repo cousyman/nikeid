@@ -3,7 +3,11 @@ shinyUI(fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      helpText("Personalize your dog tag!"),
+      p('Personalize your dog tag!'),
+      helpText("This app runs similar to Nike ID.
+               You will see a preview of your ordered tag."),
+      helpText('Note: Text will scale better on actual tag.'),
+      
       
       selectInput("var", 
                   label = "Choose a type of tag!",
